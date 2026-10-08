@@ -13,7 +13,7 @@ Software:\
 
 # Deployment
 ESP32 Execution:
-1. Duplicate secrets.example.h and rename the copy to secrets.h.
+1. Duplicate `secrets.example.h` and rename the copy to `secrets.h`.
 2. Populate `secrets.h` with the local WLAN SSID, password, desired static IP configuration, and the target Windows machine's IP and MAC address.
 3. Compile and flash `wol.ino` to the ESP32.
 
