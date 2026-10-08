@@ -53,5 +53,6 @@ void loop() {
 
   Serial.println("Cycle complete. Waiting before next check...");
 
+  
   delay(30000); // Wait 30 seconds before the next check
 }
