@@ -24,7 +24,7 @@ while ($true) {
         Write-Output "All attempts failed. Shutting down..."
         
         $payload = @{
-            content = "@everyone`nWindows Server is shutting down!!"
+            content = "@everyone`nWindows Server is shutting down!!" # could be adjusted to @engineers
             embeds = $null
             attachments = @()
         } | ConvertTo-Json -Depth 3
