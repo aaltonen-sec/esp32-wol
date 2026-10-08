@@ -18,7 +18,7 @@ ESP32 Execution:
 3. Compile and flash `wol.ino` to the ESP32.
 
 # Windows Execution:
-1. Open autoshutdown.ps1.
+1. Open `autoshutdown.ps1`.
 2. Assign the ESP32's static IP to the `$ESP_IP` variable.
 3. Replace the `$WEBHOOK_URL` placeholder with an active Discord webhook URL.
 4. Configure Windows Task Scheduler to execute `autoshutdown.ps1` automatically on system startup with administrative privileges.
