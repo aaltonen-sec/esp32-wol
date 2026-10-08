@@ -4,7 +4,7 @@ A bidirectional network monitoring architecture utilizing an ESP32 and a Windows
 # Requirements
 Hardware:\
 • ESP32 microcontroller.\
-• Windows machine with Wake-on-LAN (WoL) enabled at the BIOS/UEFI level.\
+• Windows machine with Wake-on-LAN (WoL) enabled at the BIOS/UEFI level.
 
 Software:\
 • Arduino IDE.\
