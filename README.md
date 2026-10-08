@@ -15,10 +15,10 @@ Software:\
 ESP32 Execution:
 1. Duplicate secrets.example.h and rename the copy to secrets.h.
 2. Populate secrets.h with the local WLAN SSID, password, desired static IP configuration, and the target Windows machine's IP and MAC address.
-3. Compile and flash wol.ino to the ESP32.
+3. Compile and flash `wol.ino` to the ESP32.
 
 # Windows Execution:
 1. Open autoshutdown.ps1.
-2. Assign the ESP32's static IP to the $ESP_IP variable.
-3. Replace the $WEBHOOK_URL placeholder with an active Discord webhook URL.
-4. Configure Windows Task Scheduler to execute autoshutdown.ps1 automatically on system startup with administrative privileges.
+2. Assign the ESP32's static IP to the `$ESP_IP` variable.
+3. Replace the `$WEBHOOK_URL` placeholder with an active Discord webhook URL.
+4. Configure Windows Task Scheduler to execute `autoshutdown.ps1` automatically on system startup with administrative privileges.
