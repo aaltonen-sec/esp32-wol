@@ -23,4 +23,5 @@ ESP32 Execution:
 3. Replace the `$WEBHOOK_URL` placeholder with an active Discord webhook URL.
 4. Configure Windows Task Scheduler to execute `autoshutdown.ps1` automatically on system startup with administrative privileges.
 
+# Workflow Diagram
 ![Workflow Diagram](doc/flowchart-esp32-wol.svg)
