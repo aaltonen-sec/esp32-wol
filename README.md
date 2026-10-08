@@ -2,13 +2,13 @@
 A bidirectional network monitoring architecture utilizing an ESP32 and a Windows machine. The ESP32 continuously polls the target machine via ICMP ping and broadcasts a Wake-on-LAN (WoL) magic packet if the system is unresponsive. Concurrently, a PowerShell script on the Windows machine polls the ESP32. If the ESP32 becomes unreachable (indicating isolated power loss or network failure) the Windows machine transmits an alert payload to a Discord webhook and initiates a forced self-shutdown to prevent data corruption.
 
 # Requirements
-Hardware:
-• ESP32 microcontroller.
-• Windows machine with Wake-on-LAN (WoL) enabled at the BIOS/UEFI level and OS network adapter level.
+Hardware:\
+• ESP32 microcontroller.\
+• Windows machine with Wake-on-LAN (WoL) enabled at the BIOS/UEFI level.\
 
-Software:
-• Arduino IDE.
-• Arduino Libraries: ESPping, WakeOnLan.
+Software:\
+• Arduino IDE.\
+• Arduino Libraries: ESPping, WakeOnLan.\
 • Windows PowerShell.
 
 # Deployment
